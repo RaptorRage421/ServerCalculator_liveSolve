@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Server-Side Calculator</title>    
+    <script defer src="scripts/axios.js"></script>
+    <script defer src="scripts/client.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <h1>Server-Side Calculator</h1>
+
+    <form data-testid="calculator" id="calcForm" onsubmit="postHistory(event)">
+      <input data-testid="numOne"  id="numOne" placeholder="First Number">
+      <button onClick="setOperator(event, '+')">+</button>
+      <button onClick="setOperator(event, '-')">-</button>
+      <button onClick="setOperator(event, '*')">*</button>
+      <button onClick="setOperator(event, '/')">/</button>
+      <input data-testid="numTwo" id="numTwo" placeholder="Second Number">
+      <button type="submit">=</button>
+      <button onClick="clearForm(event)">C</button>
+    </form>
+
+    <section data-testid="recentResult" id="recentResult">
+      <!-- The most recent calculation result goes here. -->
+    </section>
+
+    <section data-testid="resultHistory" id="resultHistory">
+      <!-- The list of calculation results goes here. -->
+    </section>
+  </body>
+</html>

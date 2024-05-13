@@ -1,0 +1,113 @@
+body {
+    background-image: url("../bg.png");
+    /* background-repeat: repeat-y; */
+    color: #8B008B;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: all 0.5s ease;
+  }
+  
+  main {
+    margin: auto;
+    width: 80%;
+  }
+  
+  #answer {
+    margin-top: 30px;
+    font-size: 2em;
+    color: #8B008B;
+    transition: color 0.5s ease;
+  }
+  
+  header {
+    background: linear-gradient(45deg, #FF69B4, #FF1493);
+    margin-bottom: 1em;
+    width: 100%;
+  }
+  
+  h1 {
+    color: #8B008B;
+    font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+    margin: 0;
+    margin-bottom: 1em;
+    padding: 0.25em;
+    text-align: center;
+    text-shadow: 2px 2px 3px #FF69B4;
+  }
+  
+  h2, h3, h4, h5, h6 {
+    color: #8B008B;
+    font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+    margin-top: 0;
+    text-shadow: 1px 1px 2px #FF69B4;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  section:nth-of-type(odd) {
+    background-color: #FFB6C1;
+  }
+  
+  section:nth-of-type(even) {
+    background-color: #FF83CC;
+  }
+  
+  section {
+    border-radius: 0.25em;
+    box-shadow: 3px 4px 5px #FF69B4;
+    margin-bottom: 2em;
+    padding: 1.5em;
+  }
+  
+  /***********   FORMS   ***********/
+  
+  label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding: 5px;
+    color: #8B008B;
+  }
+  
+  input {
+    background-color: #FFC0CB;
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 0.3em;
+    transition: background-color 0.5s ease;
+  }
+  
+  button {
+    background: linear-gradient(45deg, #FF69B4, #FF1493);
+    color: #FFC0CB;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 3px #FF69B4;
+    padding: 0.3em;
+    transition: background-color 0.5s ease;
+  }
+  
+  /***********   TABLES   ***********/
+  
+  table {
+    width: 100%;
+    background-color: #FFC0CB;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 0.5em;
+    text-align: left;
+    color: #8B008B;
+  }
+  
+  tbody tr:nth-of-type(even) {
+    background-color: #FFDEDB;
+  }
+  
+  thead tr {
+    background-color: #FF1493;
+    color: #FFC0CB;
+  }
+  
